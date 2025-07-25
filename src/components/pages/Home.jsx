@@ -131,6 +131,7 @@ const Home = () => {
 
       <About />
       <Pricing />
+      <ContactForm />
       <HomeBlog />
     </div>
   );

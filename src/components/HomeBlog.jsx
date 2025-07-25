@@ -5,19 +5,19 @@ import BlogCard from "./MyBlogCard";
 const HomeBlog = () => {
   const blogcards = [
     {
-      image: "https://preview.colorlib.com/theme/counselor/images/image_5.jpg",
+      image: "https://preview.colorlib.com/theme/counselor/images/image_1.jpg",
       heading: "Social Media Risks To Mental Health",
       content:
         "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
     },
     {
-      image: "https://preview.colorlib.com/theme/counselor/images/image_5.jpg",
+      image: "https://preview.colorlib.com/theme/counselor/images/image_2.jpg",
       heading: "Social Media Risks To Mental Health",
       content:
         "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
     },
     {
-      image: "https://preview.colorlib.com/theme/counselor/images/image_5.jpg",
+      image: "https://preview.colorlib.com/theme/counselor/images/image_3.jpg",
       heading: "Social Media Risks To Mental Health",
       content:
         "A small river named Duden flows by their place and supplies it with the necessary regelialia.",

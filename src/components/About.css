@@ -60,9 +60,17 @@
   .image-section {
     display: none;
   }
-
-  .text-section h6 {
-    width: 100%;
-    font-size: 12px;
+  .text-section {
+    width: 100% !important;
+    margin: 10px !important;
+    padding: 2px !important;
+    display: flex;
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+  }
+  .video-button {
+  }
+  .text-section h1 {
+    font-size: 24px !important;
   }
 }

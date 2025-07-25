@@ -9,14 +9,14 @@ const ContactForm = () => {
             <h2 className="mb-4 fw-bold">Send a Message & Get in touch!</h2>
             <form>
               <div className="row g-3 mb-3">
-                <div className="col-6">
+                <div className="col-6 inputbtn">
                   <input
                     type="text"
                     className="form-control form-control-lg"
                     placeholder="Your Name"
                   />
                 </div>
-                <div className="col-6">
+                <div className="col-6 inputbtn">
                   <input
                     type="email"
                     className="form-control form-control-lg"
