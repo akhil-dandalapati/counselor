@@ -1,0 +1,63 @@
+.services-banner {
+  background-image: url("https://preview.colorlib.com/theme/counselor/images/bg_5.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.services-banner p {
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.services-banner h1 {
+  color: black;
+  text-transform: uppercase;
+}
+.services-banner1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homemaker-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.304); /* green with 50% opacity */
+  z-index: 1;
+}
+.services-heading h6 {
+  color: #589167;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.services-heading h2 {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.679);
+  font-size: 28px;
+}
+.services-heading {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.service-grids:hover {
+  background-color: #589167;
+}
+.service-badges:hover {
+  background-color: #589167 !important;
+}

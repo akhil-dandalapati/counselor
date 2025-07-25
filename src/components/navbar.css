@@ -1,0 +1,59 @@
+/* Hide menu button (☰) on desktop */
+.menu-toggle {
+  display: none;
+}
+
+/* Default: show navbar-right as flex (horizontal) on desktop */
+.navbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    background-color: black !important;
+    color: white;
+  }
+
+  .navbar-left {
+    color: white;
+  }
+
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .navbar-right {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    background-color: black;
+    z-index: 998;
+  }
+
+  .navbar-right.open {
+    display: flex;
+  }
+
+  .navbar-right a {
+    color: white !important;
+    padding: 15px 20px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #333;
+  }
+
+  .navbar-right a:hover {
+    background-color: #222;
+    color: #589167 !important;
+  }
+}

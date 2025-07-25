@@ -1,0 +1,4 @@
+.service-badges:hover span {
+  background-color: rgb(244, 247, 244) !important;
+  color: #589167 !important;
+}

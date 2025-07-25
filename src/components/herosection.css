@@ -1,0 +1,57 @@
+.services-banner {
+  background-image: url("https://preview.colorlib.com/theme/counselor/images/bg_5.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 400px !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.services-banner p {
+  color: black !important;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.services-banner1 {
+  margin-top: 180px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black !important;
+  z-index: 2;
+}
+.services-banner1 h1 {
+  font-size: 40px !important;
+  color: #000000;
+  line-height: 1.1;
+}
+.services-banner1 h1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  /* text-transform: uppercase; */
+  font-weight: 500 !important;
+}
+
+.homemaker-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.056);
+  z-index: 1;
+}
+.services-banner h1 {
+  color: black !important;
+  /* text-transform: uppercase; */
+  font-size: 20px;
+  font-weight: 500 !important;
+}
+.services-title {
+  font-weight: 600 !important;
+  color: rgba(119, 117, 117, 0.7) !important;
+}

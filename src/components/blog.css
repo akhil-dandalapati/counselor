@@ -1,0 +1,44 @@
+.cardcricle {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: inline;
+}
+.rounded-circle:hover {
+  background-color: #589167;
+  /* margin-top: -50px !important; */
+}
+.rounded-circle {
+  /* margin-top: -50px !important; */
+}
+.pagination > li > a,
+.pagination > li > span {
+  border-radius: 50% !important;
+  margin: 0 5px;
+  border: #589167 2px solid;
+  color: #589167;
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+}
+.pagination-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

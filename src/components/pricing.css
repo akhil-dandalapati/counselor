@@ -1,0 +1,20 @@
+.price-btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-style: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 100% !important;
+  margin: 0 auto;
+  background: #589167 !important;
+  border: 1px solid #589167 !important;
+}
+.pricing-card {
+  padding: 50px;
+  margin-right: 15px;
+}
+.price-cost {
+  font-size: 60px;
+  font-weight: 600;
+  color: #589167;
+}

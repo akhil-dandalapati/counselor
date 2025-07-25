@@ -1,0 +1,97 @@
+.services-heading {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.help-btn {
+  border: 2px solid #589167 !important;
+  width: 30%;
+  height: 80px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.help-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+/* .wecanhelp {
+  display: flex;
+} */
+.help-img img {
+  width: 400px;
+}
+
+.wecanhelp {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.help-btns {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.help-img {
+  flex: 2;
+  min-width: 300px;
+}
+
+.help-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.help-img h1 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.help-img p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.help-btn {
+  width: 100%;
+  text-align: left;
+}
+.testmonial-img {
+  height: 400px;
+}
+.testmonial-img {
+  background-image: url("https://preview.colorlib.com/theme/counselor/images/bg_1.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 400px !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.service-badges:hover span {
+  background-color: rgb(244, 247, 244) !important;
+  color: #589167 !important;
+}
+@media (max-width: 768px) {
+  .features-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+}

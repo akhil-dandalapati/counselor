@@ -1,0 +1,52 @@
+.homeblog-main {
+  margin-bottom: 30px;
+}
+.cardcricle {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: inline;
+}
+.rounded-circle:hover {
+  background-color: #589167;
+  /* margin-top: -50px !important; */
+}
+.homeblog-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+.homeblog-heading h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.homeblog-heading h4 {
+  display: block;
+  color: #589167;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.blog-circle:hover {
+  background-color: #589167;
+}
+.blog-circle:hover .date {
+  color: white !important;
+}
+.blog-circle .year {
+  color: rgba(0, 0, 0, 0.2);
+}

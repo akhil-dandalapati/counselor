@@ -1,0 +1,17 @@
+.contact-bg1 {
+  background-image: linear-gradient(
+      rgba(144, 238, 144, 0.4),
+      rgba(144, 238, 144, 0.274)
+    ),
+    url("https://preview.colorlib.com/theme/counselor/images/bg_2.jpg");
+  /* background-image: url("https://preview.colorlib.com/theme/counselor/images/bg_2.jpg"); */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  display: block;
+}
+.form-wrapper {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0);
+}

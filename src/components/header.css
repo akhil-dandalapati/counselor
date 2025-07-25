@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .navbar1 {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    gap: 5px;
+    padding: 15px 20px;
+  }
+
+  .phn-mail,
+  .social-icons {
+    margin: 5px 0 0 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .phn-mail a,
+  .social-icons a {
+    font-size: 13px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
